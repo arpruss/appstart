@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+         <ListPreference android:title="Number of portrait columns"
+                android:defaultValue="4"
+                android:entries="@array/columns"
+                android:entryValues="@array/columns"
+                android:key="columns"/>
+    <CheckBoxPreference
+        android:title="Show icons"
+        android:defaultValue="true"
+        android:key="icons"/>
+    <CheckBoxPreference
+        android:title="Large icons"
+        android:defaultValue="false"
+        android:key="large"/>
+    <CheckBoxPreference
+    	android:title="Tile view"
+    	android:defaultValue="true"
+    	android:key="tile"/>
+    <CheckBoxPreference 
+        android:title="Always portrait"
+        android:defaultValue="false"
+        android:key="portrait"
+        />
+    <CheckBoxPreference 
+        android:title="Light theme"
+        android:defaultValue="false"
+        android:key="light"
+        />
+
+</PreferenceScreen>
