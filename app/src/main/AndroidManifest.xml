@@ -22,7 +22,7 @@
       			  android:configChanges="keyboard|keyboardHidden|orientation"
                   android:launchMode="singleInstance"
                   android:stateNotNeeded="true"
-                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar"
                   android:label="AppStart">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
